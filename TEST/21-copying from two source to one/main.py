@@ -1,7 +1,7 @@
 import os
-source1 = "E:/pythoncode/python/TEST/21-copying from two source to one/aa.txt"
-source2 = "E:/pythoncode/python/TEST/21-copying from two source to one/b.txt"
-target = "E:/pythoncode/python/TEST/21-copying from two source to one/target.txt"
+source1 = "aa.txt"
+source2 = "b.txt"
+target = "target.txt"
 if os.path.exists(source1):
     with open(source1, 'r') as source_file:
         content = source_file.read()
