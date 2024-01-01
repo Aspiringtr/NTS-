@@ -1,5 +1,5 @@
 import os
-file_path = "E:/pythoncode/python/TEST/24-no of words present in a file/aa.txt"
+file_path = "aa.txt"
 if os.path.exists(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
